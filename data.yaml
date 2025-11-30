@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['crickrt-ball']
+
+roboflow:
+  workspace: satyam-daalf
+  project: final-edgefleet-project-u7zlz
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/satyam-daalf/final-edgefleet-project-u7zlz/dataset/5
